@@ -1,0 +1,357 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+div,
+span,
+applet,
+object,
+iframe,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: silver;
+}
+
+header,
+footer {
+    background-color: white;
+    font-size: 28px;
+    color: navy;
+}
+
+body {
+    background-color: gray;
+    font-size: 18px;
+}
+
+p {
+    color: silver;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+footer,
+header {
+    padding: 0px;
+}
+
+footer img {
+    max-width: 50px;
+    height: 40px;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 3;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+header img {
+    max-width: 500px;
+    height: 200px;
+    background-color: white;
+    padding-bottom: 2px;
+}
+
+body.index {
+    background-color: white;
+    line-height: 40px;
+}
+
+.nav-index {
+    font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: right;
+    background-color: #497174;
+    padding-top: 8px;
+    padding-bottom: 2px;
+    
+}
+
+.nav-index a {
+    font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: #D6E4E5;
+    text-decoration: none;
+    padding-right: 64px;
+}
+
+.photo-grid {
+    padding-top: 16px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.photo-grid img{
+    max-width: 400px;
+    height: 300px;
+
+}
+footer.index {
+    background-color: #497174;
+    color: #D6E4E5;
+    padding: 8px;
+    line-height: 18px;
+
+}
+.nav-about a {
+    font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: #F66B0E;
+    text-decoration: none;
+    padding-right: 64px;
+
+}
+
+.nav-about {
+    padding-top: 8px;
+    padding-bottom: 2px;
+    text-align: right;
+    background-color: #05115a;
+}
+
+body.about {
+    background-color: white;
+    line-height: 40px;
+}
+
+main {
+    margin-left: 12px;
+    line-height: 30px;
+
+}
+
+p.about-string {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #394867;
+}
+
+
+h2 {
+    color: #212A3E;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.article-images img {
+    max-width: 540px;
+    height: 340px;
+    margin-left: 10px;
+
+}
+
+footer.about {
+    background-color: #F66B0E;
+    color: #030d53;
+    padding: 8px;
+    line-height: 18px;
+}
+
+footer img {
+    padding-right: 8px;
+    max-width: 40px;
+    height: 30px;
+}
+
+.nav-industries a {
+    font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: #F6F1F1;
+    text-decoration: none;
+    padding-right: 64px;
+
+}
+
+.nav-industries {
+    padding-top: 8px;
+    padding-bottom: 2px;
+    text-align: right;
+    background-color: #245953;
+}
+
+h2.industries-heading {
+    color: #243763;
+}
+
+body.industries {
+    background-color: #b7e3e4;
+    line-height: 40px;
+}
+
+p.industries-string {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #243763;
+
+}
+
+.industries-string {
+    color: black;
+}
+
+footer.industries {
+    background-color: #f03f35;
+    padding: 8px;
+    line-height: 18px;
+}
+
+.nav-services a {
+    font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: #E49393;
+    text-decoration: none;
+    padding-right: 64px;
+
+}
+
+.nav-services {
+    padding-top: 8px;
+    padding-bottom: 2px;
+    text-align: right;
+    background-color: white;
+}
+
+
+
+h2.services-heading {
+    color: #245953;
+}
+
+body.services {
+    background-color: #D8D8D8;
+    line-height: 40px;
+}
+
+
+p.services-string {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #408E91;
+
+}
+
+
+
+footer.services {
+    background-color: #DBDFEA;
+    padding: 8px;
+    line-height: 18px;
+}
+
+
+
